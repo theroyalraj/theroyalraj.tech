@@ -10,4 +10,10 @@ export default defineConfig({
       '@static': path.resolve(__dirname, './static'),
     },
   },
+  server: {
+    port: 80,
+  },
+  preview: {
+    port: 8080,
+  }
 });
