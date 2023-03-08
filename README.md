@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://theroyalraj.tech/"><img alt="Logo" src="https://github.com/rwxdan/theroyalraj.tech/blob/main/public/favicon.png" width="100" /></a>
+  <a href="https://theroyalraj.tech/"><img alt="Logo" src="https://github.com/theroyalraj/theroyalraj.tech/blob/master/public/favicon.png" width="100" /></a>
 </div>
 <h1 align="center">
   theroyalraj.tech

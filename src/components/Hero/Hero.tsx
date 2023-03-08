@@ -46,9 +46,9 @@ const Hero = () => {
             I'm <br className="break" /> <span className="name">Utkarsh Raj</span>
           </animated.h1>
           <animated.div style={secondBoot}>
-            <h2 className="sub-title">I build things for the client-side of the Web.</h2>
+            <h2 className="sub-title">Innovative problem solver, driven by tech's potential to transform society.</h2>
             <p className="intro">
-              I'm a Frontend developer committed to create functional and aesthetically pleasing Web Applications.{' '}
+              I am a Full Stack Developer, always conjuring new and innovative solutions with the power of code. Technology is my passion, and I approach every project with enthusiasm and a thirst for knowledge, eager to unlock the potential of every byte.{' '}
               <span className="status">I'm currently looking for new opportunities!</span>
             </p>
             <Button title="See My Projects" link="#projects" />

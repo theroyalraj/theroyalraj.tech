@@ -3,7 +3,7 @@
   max-width: var(--body-max-w);
   margin: 0 auto;
   display: flex;
-  padding: 15rem 4rem;
+  padding: 8rem 4rem;
 }
 
 .hero .hero-box {
@@ -61,10 +61,10 @@
 }
 
 .hero .sub-title {
-  font-size: calc(var(--fs-4xl) - 0.125rem);
+  font-size: calc(var(--fs-4xl) - 0.95rem);
   font-family: var(--ff-sans-title);
   letter-spacing: 0.2px;
-  font-weight: 800;
+  font-weight: 750;
   color: var(--neutral-750);
   line-height: 1.1;
 }
@@ -200,7 +200,7 @@
 
   .hero .hero-box {
     grid-template-columns: 1fr;
-    gap: 2.5rem;
+    gap: 1.5rem;
   }
 
   .hero .intro {
