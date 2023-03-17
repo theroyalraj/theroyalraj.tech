@@ -3,6 +3,7 @@ import { SiGithub } from 'react-icons/si';
 import { FiShare } from 'react-icons/fi';
 interface Props {
   name: string;
+  date: string;
   info?: string;
   stack: string[];
   code?: string;

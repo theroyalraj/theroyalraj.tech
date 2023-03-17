@@ -4,7 +4,7 @@ export const featured: {
   id: string;
   name: string;
   date: string;
-  info?: string;
+  info: string;
   stack: string[];
   code?: string;
   live?: string;

@@ -38,7 +38,7 @@ const Projects = () => {
               key={project.id}
               name={project.name}
               date={project.date}
-              info={Parser(project.info)} 
+              info={project.info !==undefined ? Parser(project.info) as string: ""} 
               stack={project.stack}
               code={project.code}
               live={project.live}
