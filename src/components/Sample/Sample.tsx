@@ -37,6 +37,7 @@ const Sample = (props: Props) => {
     <animated.div ref={ref} style={springs} className="sample-box">
       <div className="text-box">
         <h5 className="project-title">{props.name}</h5>
+        <p className="project-date">{props.date}</p>
         <p className="project-info">{props.info}</p>
         <ul className="stack">
           {props.stack.map((item, index) => (
@@ -45,14 +46,15 @@ const Sample = (props: Props) => {
             </li>
           ))}
         </ul>
-        {/* <div className="external-links">
+        { <div className="external-links">
           <a target="_blank" href={props.code} className="link">
-            <SiGithub />
+            {props.code !='' &&
+            <SiGithub />}
           </a>
           <a target="_blank" href={props.live} className="link">
             <FiShare />
           </a>
-        </div> */}
+        </div> }
       </div>
       <div className="image-box">
         <a target="_blank" href={props.live}>

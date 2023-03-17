@@ -126,7 +126,7 @@
 }
 
 .hero .image-wrapper:hover .profile {
-  transform: scale(1.03) translateY(-1.125rem) rotate(-10.5deg);
+  /* transform: scale(1.03) translateY(-1.125rem) rotate(-10.5deg); */
 }
 
 .hero .wrapper {

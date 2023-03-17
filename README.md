@@ -1,11 +1,12 @@
-<div align="center">
-  <a href="https://theroyalraj.tech/"><img alt="Logo" src="https://github.com/theroyalraj/theroyalraj.tech/blob/master/public/favicon.png" width="100" /></a>
+a<div align="center">
+<a href="https://theroyalraj.netlify.app/"><img alt="Logo" src="https://github.com/theroyalraj/theroyalraj.tech/blob/master/public/favicon.png" width="100" /></a>
+
 </div>
 <h1 align="center">
-  theroyalraj.tech
+   <a href="https://theroyalraj.netlify.app/">theroyalraj.tech</a>
 </h1>
 <p align="center">
-  The first version of <a href="https://theroyalraj.tech/">theroyalraj.tech</a>, my portfolio. Built with <a href="https://vitejs.dev/">Vite</a> and Deployed by <a href="https://vercel.com/">Vercel</a>
+  The first version of <a href="https://theroyalraj.netlify.app/">theroyalraj.tech</a>, my portfolio. Built with <a href="https://vitejs.dev/">Vite</a> and Deployed by <a href="https://vercel.com/">Vercel</a>
 </p>
 <div align="center">
     <img height="44" src="https://skillicons.dev/icons?i=vercel,vite,nodejs,react,typescript,css,vscode" />
@@ -33,7 +34,7 @@
 1. Clone the project, then `cd` into it
 
 ```
-git clone https://github.com/rwxdan/theroyalraj.tech && cd theroyalraj.tech
+git clone https://github.com/theroyalraj/theroyalraj.tech && cd theroyalraj.tech
 ```
 
 2. Install all the dependencies

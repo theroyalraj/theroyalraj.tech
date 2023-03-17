@@ -51,7 +51,7 @@ const Hero = () => {
               I am a Full Stack Developer, always conjuring new and innovative solutions with the power of code. Technology is my passion, and I approach every project with enthusiasm and a thirst for knowledge, eager to unlock the potential of every byte.{' '}
               <span className="status">I'm currently looking for new opportunities!</span>
             </p>
-            <Button title="See My Projects" link="#projects" />
+            <Button title="Explore More" link="#projects" />
           </animated.div>
         </div>
         <animated.div style={firstBoot} className="image-box">
@@ -62,7 +62,7 @@ const Hero = () => {
             </div>
             <div className="tag-box">
               <p className="tag">
-                It's me, theroyalraj! <span className="wave">👋</span>{' '}
+                It's me, Utkarsh Raj! <span className="wave">👋</span>{' '}
               </p>
             </div>
           </div>

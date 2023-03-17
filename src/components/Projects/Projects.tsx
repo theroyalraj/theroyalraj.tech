@@ -2,6 +2,8 @@ import { animated, useInView } from '@react-spring/web';
 import { Sample, ShowMore } from '@/components';
 import { featured } from '@/shared';
 import './projects.css';
+import Parser from 'html-react-parser';
+
 
 const Projects = () => {
   const isMobile = window.innerWidth < 475;
@@ -28,28 +30,31 @@ const Projects = () => {
   return (
     <section ref={ref} id="projects">
       <animated.div style={springs} className="projects">
-        <h3 className="title">Experiences</h3>
+        <h3 className="title">WORK EXPERIENCE</h3>
         <h4 className="sub-title">My previous experiences</h4>
         <div className="projects-box">
           {featured.slice(0, 2).map((project) => (
             <Sample
               key={project.id}
               name={project.name}
-              info={project.info}
+              date={project.date}
+              info={Parser(project.info)} 
               stack={project.stack}
               code={project.code}
               live={project.live}
               image={project.image}
+
             />
           ))}
         </div>
         <h3 className="title" style={{marginTop : 50 }}>Projects</h3>
-        <h4 className="sub-title">My previous experiences</h4>
+        {/* <h4 className="sub-title">My previous experiences</h4> */}
         <div className="projects-box">
           {featured.slice(2, 4).map((project) => (
             <Sample
               key={project.id}
               name={project.name}
+              date={project.date}
               info={project.info}
               stack={project.stack}
               code={project.code}

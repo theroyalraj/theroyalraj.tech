@@ -31,25 +31,15 @@ const WhoAmI = () => {
         <div className="text-box">
           <h3 className="title">About</h3>
           <p className="text">
-            My name is Daniel. I'm a frontend web developer based in Venezuela. I'm{' '}
-            <span className="bold">passionate</span> about cutting-edge, pixel-perfect, responsive user interfaces, and
-            dynamic user experiences.{' '}
+            My name is Utkarsh Raj. I'm a software developer based in Bengaluru with domain expertise in <span className="bold">Conversational AI, Sales Enablement, and Revenue Intelligence</span>. I have a proven track record of designing, developing, and maintaining complex software applications in a competitive startup environment. My expertise in both front-end and back-end development has allowed me to deliver robust solutions that meet clients' specific requirements.
           </p>
 
           <p className="text">
-            My enthusiasm for web development began when I found myself hacking together a local web dashboard — at that
-            time, I didn't imagine that tinkering with <span className="bold">HTML</span>,{' '}
-            <span className="bold">CSS</span> and <span className="bold">JavaScript</span> could get this far, yet it
-            turned out to be <span className="bold">much</span> more than that!
+            With proficiency in <span className="bold">Java, Spring Boot, PostgreSQL, Elastic Search, AWS, NodeJs,</span> and have the technical skills necessary to take on any software development challenge. I am always seeking to expand my knowledge and stay up-to-date with the latest technologies and development practices to ensure the highest quality results for my clients.
           </p>
 
           <p className="text">
-            Nowadays, I don't keep <span className="italic">hacking</span> around with{' '}
-            <span className="bold">HTML</span>, <span className="bold">CSS</span> and{' '}
-            <span className="bold">JavaScript</span> anymore — my <span className="bold">focus</span> now is to develop
-            things for the real world by using them! And of course <span className="bold">TypeScript</span>,{' '}
-            <span className="bold">React</span>, <span className="bold">TailwindCSS</span>,{' '}
-            <span className="bold">SCSS</span>, and many other frameworks and libraries that I work with every day.{' '}
+            Do you want a software developer who is more than just a <span className="italic"><span className="bold">code monkey</span></span>?{' '} Look no further! I'm a driven and passionate developer. I'm experienced in a range of programming languages and tools, and I thrive in fast-paced and dynamic environments. I'm a team player who values communication and collaboration, and I'm always eager to learn and stay up-to-date with the latest trends and technologies. <span className="italic">Let's work together to bring innovative ideas to life and make an impact in the tech industry!</span>
           </p>
         </div>
         <Knowledge />

@@ -1,6 +1,6 @@
 const Mail = 'utraj00114@gmail.com';
-const Gh = 'https://github.com/rwxdan';
-const In = 'https://www.linkedin.com/in/rwxdan/';
+const Gh = 'https://github.com/theroyalraj';
+const In = 'https://www.linkedin.com/in/theroyalraj/';
 
 const connectLinks: {
   id: string;
@@ -11,28 +11,16 @@ const connectLinks: {
     link: 'mailto:utraj00114@gmail.com',
   },
   {
-    id: 'protonmail',
-    link: 'mailto:rwxdan@proton.me',
-  },
-  {
     id: 'linkedin',
     link: 'https://www.linkedin.com/in/theroyalraj/',
   },
   {
     id: 'github',
-    link: 'https://github.com/rwxdan',
+    link: 'https://github.com/theroyalraj',
   },
   {
-    id: 'frontendmentor',
-    link: 'https://www.frontendmentor.io/profile/rwxdan',
-  },
-  {
-    id: 'discord',
-    link: 'https://discordapp.com/users/rwxdan#1884',
-  },
-  {
-    id: 'telegram',
-    link: 'https://t.me/dan1elcastro',
+    id: 'whatsapp',
+    link: 'https://api.whatsapp.com/send/?phone=%2B917870455443&text=hi&type=phone_number&app_absent=0',
   },
 ];
 

@@ -1,8 +1,9 @@
-import { Manage, TipCalculator, EvoGym, darFi, salesken } from '@static/images';
+import { Manage, TipCalculator, EvoGym, darFi, salesken, salesken2,bitaansh,netflix } from '@static/images';
 
 export const featured: {
   id: string;
   name: string;
+  date: string;
   info?: string;
   stack: string[];
   code?: string;
@@ -11,101 +12,55 @@ export const featured: {
 }[] = [
   {
     id: 'sde',
-    name: 'Salesken.ai',
-    info: "Design Develop ",
-    stack: ['chatGPT', 'TailwindCSS', 'TypeScript', 'PostCSS'],
-    code: 'https://salesken.ai',
+    name: 'SDE@Salesken ',
+    date:"(07/2021 - 02/2023)",
+    info: `<React.Fragment>
+    <ul type="disc">
+  My role was to Design, develop, deploy, and maintain core services.
+  <br><strong><u><center>Achievements/Tasks</center></u></strong>
+  <li>•Built core analysis engine V2 from the ground up using the Spring framework and Kubernetes architecture as microservices, resulting in a <strong>6x increase in load capacity.</strong></li>
+  <li>•Integrated <strong>ChatGPT</strong> with a live queuing server to provide personalized prompts, reducing onboarding time from one month to just a few hours.</li>
+  <li>•Created and scaled Webinar Bot using Kubernetes to facilitate attendance and recording for providers such as Zoom, MS Teams, and Google Meet. Leveraging puppeteer, Zoom SDK, and NodeJS in the process which can handle <strong>2k concurrent live webinars</strong>.</li>
+  <li>•Conducted Proof of Concept (PoC) and migrated reporting data from Postgres to Elasticsearch, resulting in a <strong>500% improvement in page load speed.</strong></li>
+</ul><React.Fragment>`,
+    stack: ['Java', 'JavaScript', 'NodeJs', 'Spring Boot', 'PostgreSQL', 'ELK Stack', 'Azure', 'AWS', 'Redis', 'Kafka'],
+    code: '',
+    live: 'https://salesken.ai/',
+    image: salesken2,
+  },
+  {
+    id: 'Salesken',
+    name: 'SDE Intern@Salesken',
+    date:"(09/2020 - 03/2021)",
+    info: `<ul>
+    <strong><u><center>Achievements/Tasks</center></u></strong>
+    <li>•Contributed to Proof of Concept (PoC) and aided in the development of a predictive model for forecasting won-loss opportunities using Google AutoML, which helped raise our series B funding.</li>
+    <li>•Assisted with the development and productization of h20.ai AutoML model.</li>
+    <li>•Utilized the Twilio SDK to establish Automated Voice Response systems that authenticate user phone numbers.</li>
+    <li>•Implemented and enhanced the performance of numerous API(s).</li></ul>`,
+    stack: ['Java', 'PostgreSQL', 'Python', 'Google Cloud'],
+    code: '',
     live: 'https://salesken.ai/',
     image: salesken,
   },
   {
-    id: 'evogym',
-    name: 'Evolutionary Fitness',
-    info: "A prototype landing page for a prototype bussiness called EvoGym. It's fully responsive, dynamic and very lightweight.",
-    stack: ['ReactJS', 'TailwindCSS', 'TypeScript', 'Vite'],
-    code: 'https://github.com/rwxdan/evo-fit-landing-page',
-    live: 'https://evo-fit-landing-page.vercel.app/',
-    image: EvoGym,
-  },
-  {
-    id: 'manage',
-    name: 'Manage Landing Page',
-    info: "Manage's prototype landing page. Completly responsive as well, it has a carefully-designed layout with some catchy details to stand out.",
-    stack: ['PostCSS', 'ReactJS', 'Framer Motion', 'Vite'],
-    code: 'https://github.com/rwxdan/manage-landing-page',
-    live: 'https://manage-landing-page-rwxdan.vercel.app/',
-    image: Manage,
+    id: 'ml',
+    name: 'Movie Recommendation System Using Netflix Dataset | Machine Learning',
+    date:"(06/2019 - 07/2019)",
+    info: "Made a Movie Recommendation based on user rating using Netflix Dataset.",
+    stack: ['Machine Leaning', 'SCIKIT-Learn', 'NumPy', 'Pandas', 'MatplotLib'],
+    code: 'https://github.com/theroyalraj/Machine-Learning',
+    live: 'https://github.com/theroyalraj/Machine-Learning',
+    image: netflix,
   },
   {
     id: 'tip',
-    name: 'Tip Calculator App',
-    info: 'A very handy app for whenever you need to get your tips right. Whether in company or alone, the app is going to get you the right amounts.',
-    stack: ['HTML', 'JavaScript', 'SCSS'],
-    code: 'https://github.com/rwxdan/tip-calculator-app',
-    live: 'https://rwxdan.github.io/tip-calculator-app',
-    image: TipCalculator,
-  },
-  {
-    id: 'adviceGenerator',
-    name: 'Advice Generator App',
-    info: 'The sole purpose of this app is to shake it! Oh, and to provide you with a random advice everytime you click the dice button. Check it out! 🔮',
-    stack: ['HTML', 'SCSS', 'JavaScript', 'API'],
-    code: 'https://github.com/rwxdan/advice-generator-app',
-    live: 'https://rwxdan.github.io/advice-generator-app',
-  },
-  {
-    id: 'pydownloader',
-    name: 'YT PyDownloader',
-    info: 'GUI YT Downloader written in Python, this app lets you download videos (or their audio only) from youtube quickly and easy. Use with caution 🐍',
-    stack: ['Python'],
-    code: 'https://github.com/rwxdan/yt-pydownloader',
-  },
-  {
-    id: 'hoobank',
-    name: 'Hoobank',
-    info: 'Prototype landing page for HooBank, a GPT-3 futuristic platform. Mobile-friendly, has beautiful colors and a very well-constructed layout 🦾',
-    stack: ['PostCSS', 'ReactJS', 'TailwindCSS'],
-    code: 'https://github.com/rwxdan/hoobank',
-    live: 'https://hoobank-rwxdan.vercel.app/',
-  },
-  {
-    id: 'huddleExtended',
-    name: 'Huddle Landing Page Extended',
-    info: 'Concept landing page for Huddle, a fictional platform, which has CSS grid action (and flexbox) throughout. Definitely a fun challenge to code 👨‍💻',
-    stack: ['HTML', 'SCSS'],
-    code: 'https://github.com/rwxdan/huddle-landing-page-extended',
-    live: 'https://rwxdan.github.io/huddle-landing-page-extended/',
-  },
-  {
-    id: 'blogr',
-    name: 'Blogr Landing Page',
-    info: "Concept landing page for Blogr, a prototype platform. It's fully responsive, dynamic, well-designed and very 'flexy'. 📜  ",
-    stack: ['ReactJS', 'TailwindCSS', 'Vite'],
-    code: 'https://github.com/rwxdan/blogr-landing-page',
-    live: 'https://rwxdan-blogr-lp.netlify.app/',
-  },
-  {
-    id: 'dragonRepeller',
-    name: 'Dragon Repeller',
-    info: 'A fun and interactive game where you have to defeat a dragon that is preventing people from leaving the town! 👾',
-    stack: ['HTML', 'CSS', 'JavaScript'],
-    code: 'https://github.com/rwxdan/dragon-repeller-minigame',
-    live: 'https://rwxdan.github.io/dragon-repeller-minigame',
-  },
-  {
-    id: 'orderSummary',
-    name: 'Order Summary Component',
-    info: "Concept for a central component with a really nice design all across the page, it's responsive and reusable! 🧩",
-    stack: ['HTML', 'SCSS'],
-    code: 'https://github.com/rwxdan/order-summary-component',
-    live: 'https://rwxdan.github.io/order-summary-component',
-  },
-  {
-    id: 'newsHomepage',
-    name: 'News Homepage',
-    info: 'Concept landing page which has a lot of grid action throughout, it has a fully responsive and dynamic layout! 📰',
-    stack: ['ReactJS', 'SCSS', 'Vite'],
-    code: 'https://github.com/rwxdan/news-homepage',
-    live: 'https://news-homepage-nu-ashy.vercel.app/',
-  },
+    name: 'BITaansh Website | Web Development',
+    date:"(08/2018 - 08/2018)",
+    info: 'Made a Dynamic Website for College Cultural fest.',
+    stack: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Nodejs'],
+    code: 'https://github.com/theroyalraj/BITaansh19',
+    live: 'https://bitaansh.netlify.app/',
+    image: bitaansh,
+  }
 ];
