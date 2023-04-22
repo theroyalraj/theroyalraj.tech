@@ -246,6 +246,7 @@
     z-index: unset;
     top: -1rem;
   }
+
   .hero .wrapper {
     margin-top: auto;
   }
@@ -263,6 +264,7 @@
     right: -4.5rem;
     top: -1rem;
   }
+
   .hero .wrapper .tag {
     font-size: 0.75rem;
   }

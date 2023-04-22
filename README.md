@@ -1,5 +1,5 @@
-a<div align="center">
-<a href="https://theroyalraj.netlify.app/"><img alt="Logo" src="https://github.com/theroyalraj/theroyalraj.tech/blob/master/public/favicon.png" width="100" /></a>
+<div align="center">
+<a href="https://theroyalraj.netlify.app/"><img alt="Logo" src="https://theroyalraj.netlify.app/favicon.png" width="100" /></a>
 
 </div>
 <h1 align="center">
@@ -10,7 +10,7 @@ a<div align="center">
 </p>
 <div align="center">
     <img height="44" src="https://skillicons.dev/icons?i=vercel,vite,nodejs,react,typescript,css,vscode" />
-    <img src="./public/screenshot.jpg">
+   
 </div>
 
 ## Tools used 🧰
@@ -49,9 +49,9 @@ yarn
 yarn dev
 ```
 
-## Do you want to contribute? 🤝
+<!-- ## Do you want to contribute? 🤝
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md)
+See [CONTRIBUTING.md](./CONTRIBUTING.md) -->
 
 ---
 
