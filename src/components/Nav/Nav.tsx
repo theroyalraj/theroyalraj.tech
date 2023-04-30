@@ -51,7 +51,7 @@ const Nav = () => {
                 <li key={item.id}>
                   <a
                     target={`${index === navLinks.length - 1 ? '_blank' : '_self'}`}
-                    href={`${index === navLinks.length - 1 ? 'https://www.dropbox.com/s/3l232d4nk6i15dy/Utkarsh%27s%20Resume.pdf?dl=0' : `#${item.id}`}`}
+                    href={`${index === navLinks.length - 1 ? 'https://www.dropbox.com/s/w3sl10l1hcq7vg6/resume.pdf?dl=0' : `#${item.id}`}`}
                     className={` ${index === navLinks.length - 1 ? 'nav-links resume' : 'nav-links'}  `}
                   >
                     {item.title}
