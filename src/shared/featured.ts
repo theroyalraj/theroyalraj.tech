@@ -21,8 +21,8 @@ export const featured: {
   <li>•Designed, structured, scaled, and developed core analysis engine V2 entirely from the ground up utilizing the spring framework, resulting in a <strong>6x increase in our load capacity</strong>.</li>
   <li>•Conducted Proof of Concept (PoC) and migrated reporting data from Postgres to Elasticsearch, resulting in a <strong>500% improvement in page load speed.</strong></li>
   <li>•Integrated <strong>ChatGPT</strong> with a live queuing server to provide personalized prompts, reducing onboarding time from one month to just a few hours.</li>
-  <li>•Built and scaled Webinar Bot which facilitates attendance and recording for
-  providers such as Google Meet, MS Teams and Zoom. Leveraging puppeteer, Node.js and Kubernetes in the process which can handle <strong>2k concurrent live webinars</strong>.</li>
+  <li>•Implemented cutting-edge semantic search using ElasticSearch, BERT, and USE embeddings, enabling precise and meaningful <strong>search results based on query meaning</strong>, enhancing user experience and search functionality.</li>
+  <li>•Built and scaled Webinar Bot which facilitates attendance and recording for providers such as Google Meet, MS Teams and Zoom. Leveraging puppeteer, Node.js and Kubernetes in the process which can handle <strong>2k concurrent live webinars</strong>.</li>
   <li>•Contributed to Proof of Concept (PoC) and aided in the development of a predictive model for forecasting won-loss opportunities using Google AutoML, which helped raise our series B funding.</li>
   <li>•Assisted with the development and productization of h20.ai AutoML model.</li>
   <li>•Utilized the Twilio SDK to establish Automated Voice Response systems that authenticate user phone numbers.</li>
