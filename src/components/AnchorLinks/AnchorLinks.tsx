@@ -1,6 +1,6 @@
 import { animated, useSpring } from '@react-spring/web';
-import { Gh, In } from '@/shared';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { Gh, In, Insta } from '@/shared';
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import './anchor_links.css';
 const AnchorLinks = () => {
   const spring = useSpring({
@@ -18,6 +18,9 @@ const AnchorLinks = () => {
   return (
     <animated.aside style={spring} className="anchor-links">
       <div className="links-box">
+        <a href={`${Insta}`} target="_blank" className="link">
+          <FaInstagram />
+        </a>
         <a href={`${Gh}`} target="_blank" className="link">
           <FaGithub />
         </a>

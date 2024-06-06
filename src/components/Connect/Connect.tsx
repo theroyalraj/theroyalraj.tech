@@ -1,15 +1,19 @@
 import { animated, useInView } from '@react-spring/web';
 import { connectLinks, Mail } from '@/shared';
 import { Button } from '@/components';
-import { SiGmail, SiProtonmail, SiLinkedin, SiGithub, SiFrontendmentor, SiDiscord, SiTelegram, SiWhatsapp } from 'react-icons/si';
+import {
+  SiGmail,
+  SiInstagram,
+  SiLinkedin,
+  SiGithub,
+  SiFrontendmentor,
+  SiDiscord,
+  SiTelegram,
+  SiWhatsapp,
+} from 'react-icons/si';
 import './connect.css';
 const Connect = () => {
-  const icons = [
-    <SiGmail />,
-    <SiLinkedin />,
-    <SiGithub />,
-    <SiWhatsapp />,
-  ];
+  const icons = [<SiGmail />, <SiLinkedin />, <SiGithub />, <SiWhatsapp />, <SiInstagram />];
   const isMobile = window.innerWidth < 475;
   let ref;
   let springs;

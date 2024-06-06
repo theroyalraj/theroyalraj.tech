@@ -1,3 +1,3 @@
-export { Mail, Gh, In, connectLinks } from './connectLinks';
+export { Mail, Gh, In, connectLinks, Insta } from './connectLinks';
 export { featured } from './featured';
 export { navLinks } from './navLinks';

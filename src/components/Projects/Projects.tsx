@@ -4,7 +4,6 @@ import { featured } from '@/shared';
 import './projects.css';
 import Parser from 'html-react-parser';
 
-
 const Projects = () => {
   const isMobile = window.innerWidth < 475;
 
@@ -33,24 +32,25 @@ const Projects = () => {
         <h3 className="title">WORK EXPERIENCE</h3>
         <h4 className="sub-title">My previous experiences</h4>
         <div className="projects-box">
-          {featured.slice(0, 1).map((project) => (
+          {featured.slice(0, 2).map((project) => (
             <Sample
               key={project.id}
               name={project.name}
               date={project.date}
-              info={project.info !== undefined ? Parser(project.info) as string : ""}
+              info={project.info !== undefined ? (Parser(project.info) as string) : ''}
               stack={project.stack}
               code={project.code}
               live={project.live}
               image={project.image}
-
             />
           ))}
         </div>
-        <h3 className="title" style={{ marginTop: 50 }}>Projects</h3>
+        <h3 className="title" style={{ marginTop: 50 }}>
+          Projects
+        </h3>
         {/* <h4 className="sub-title">My previous experiences</h4> */}
         <div className="projects-box">
-          {featured.slice(1, 3).map((project) => (
+          {featured.slice(2, 4).map((project) => (
             <Sample
               key={project.id}
               name={project.name}

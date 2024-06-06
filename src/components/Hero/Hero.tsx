@@ -48,8 +48,9 @@ const Hero = () => {
           <animated.div style={secondBoot}>
             <h2 className="sub-title">Innovative problem solver, driven by tech's potential to transform society.</h2>
             <p className="intro">
-              I am a Full Stack Developer, always conjuring new and innovative solutions with the power of code. Technology is my passion, and I approach every project with enthusiasm and a thirst for knowledge, eager to unlock the potential of every byte.{' '}
-              <span className="status">I'm currently looking for new opportunities!</span>
+              I am a Full Stack Developer, always conjuring new and innovative solutions with the power of code.
+              Technology is my passion, and I approach every project with enthusiasm and a thirst for knowledge, eager
+              to unlock the potential of every byte. <span className="status"></span>
             </p>
             <Button title="Explore More" link="#projects" />
           </animated.div>

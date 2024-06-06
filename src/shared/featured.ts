@@ -1,4 +1,15 @@
-import { Manage, TipCalculator, EvoGym, darFi, salesken, salesken2, bitaansh, netflix } from '@static/images';
+import {
+  Manage,
+  TipCalculator,
+  EvoGym,
+  darFi,
+  salesken,
+  salesken2,
+  bitaansh,
+  netflix,
+  lk,
+  careerin,
+} from '@static/images';
 
 export const featured: {
   id: string;
@@ -10,11 +21,29 @@ export const featured: {
   live?: string;
   image?: string;
 }[] = [
-    {
-      id: 'sde',
-      name: 'SDE@Salesken ',
-      date: "(09/2020 - Present)",
-      info: `<React.Fragment>
+  {
+    id: 'lk',
+    name: 'SDE@Lenskart ',
+    date: '(03/2023 - Present)',
+    info: `<React.Fragment>
+  <ul type="disc">Lenskart is a leading tech focused eyewear company oﬀering a wide range of glasses with innovative technology like virtual try-on.
+<br><strong><u><center>Achievements/Tasks</center></u></strong>
+<li>•Developed and Integrated <strong>Visual Search (frame suggestions based on face structure)</strong> using Facenet and <strong>Semantic Search </strong>using Algolia.</li>
+<li>•Designed, developed and integrated a versatile library compatible with spring projects, facilitating seamless integration for encrypting or decrypting <strong>Personally Identiﬁable Information (PII) </strong>  data stored in Database or Network transit making the system more secure.</li>
+<li>•Integrated Juspay payment gateway, enabling dynamic routing for both PayU and Juspay concurrently. Achieved a <strong>10% increase</strong> in uptime and more payment options, leading to a <strong>5% increase</strong> in revenue worldwide..</li></ul>
+</ul>
+<React.Fragment>`,
+
+    stack: ['Java', 'JavaScript', 'NodeJs', 'Spring Boot', 'PostgreSQL', 'ELK Stack', 'Azure', 'AWS', 'Redis', 'Kafka'],
+    code: '',
+    live: 'https://salesken.ai/',
+    image: lk,
+  },
+  {
+    id: 'sde',
+    name: 'SDE@Salesken ',
+    date: '(09/2020 - 03/2023)',
+    info: `<React.Fragment>
     <ul type="disc">
   My role was to Design, develop, deploy, and maintain core services.
   <br><strong><u><center>Achievements/Tasks</center></u></strong>
@@ -30,29 +59,39 @@ export const featured: {
   </ul>
 <React.Fragment>`,
 
-      stack: ['Java', 'JavaScript', 'NodeJs', 'Spring Boot', 'PostgreSQL', 'ELK Stack', 'Azure', 'AWS', 'Redis', 'Kafka'],
-      code: '',
-      live: 'https://salesken.ai/',
-      image: salesken,
-    },
-    {
-      id: 'ml',
-      name: 'Movie Recommendation System Using Netflix Dataset | Machine Learning',
-      date: "(06/2019 - 07/2019)",
-      info: "Made a Movie Recommendation based on user rating using Netflix Dataset.",
-      stack: ['Machine Learning', 'SCIKIT-Learn', 'NumPy', 'Pandas', 'MatplotLib'],
-      code: 'https://github.com/theroyalraj/Machine-Learning',
-      live: 'https://github.com/theroyalraj/Machine-Learning',
-      image: netflix,
-    },
-    {
-      id: 'tip',
-      name: 'BITaansh Website | Web Development',
-      date: "(08/2018 - 08/2018)",
-      info: 'Made a Dynamic Website for College Cultural fest.',
-      stack: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Nodejs'],
-      code: 'https://github.com/theroyalraj/BITaansh19',
-      live: 'https://bitaansh.netlify.app/',
-      image: bitaansh,
-    }
-  ];
+    stack: ['Java', 'JavaScript', 'NodeJs', 'Spring Boot', 'PostgreSQL', 'ELK Stack', 'Azure', 'AWS', 'Redis', 'Kafka'],
+    code: '',
+    live: 'https://salesken.ai/',
+    image: salesken,
+  },
+  {
+    id: 'careerin',
+    name: 'CareerIn Platform',
+    date: '(06/2019 - 07/2019)',
+    info: 'Led the development of CareerIn, a professional career counseling platform. Employs AI-driven questionnaires to predict optimal career paths, while also providing insights into industry trends and alternative career probabilities.',
+    stack: ['Spring Boot', 'H2o.ai', 'JSP', 'PostgreSQL'],
+    code: 'https://github.com/SkilledIn-Labs/careerIn',
+    live: 'https://github.com/SkilledIn-Labs/careerIn',
+    image: careerin,
+  },
+  {
+    id: 'ml',
+    name: 'Movie Recommendation System Using Netflix Dataset | Machine Learning',
+    date: '(06/2019 - 07/2019)',
+    info: 'Made a Movie Recommendation based on user rating using Netflix Dataset.',
+    stack: ['Machine Learning', 'SCIKIT-Learn', 'NumPy', 'Pandas', 'MatplotLib'],
+    code: 'https://github.com/theroyalraj/Machine-Learning',
+    live: 'https://github.com/theroyalraj/Machine-Learning',
+    image: netflix,
+  },
+  {
+    id: 'tip',
+    name: 'BITaansh Website | Web Development',
+    date: '(08/2018 - 08/2018)',
+    info: 'Made a Dynamic Website for College Cultural fest.',
+    stack: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Nodejs'],
+    code: 'https://github.com/theroyalraj/BITaansh19',
+    live: 'https://bitaansh.netlify.app/',
+    image: bitaansh,
+  },
+];

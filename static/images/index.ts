@@ -7,4 +7,5 @@ export { default as salesken } from './salesken.png';
 export { default as salesken2 } from './salesken2.jpg';
 export { default as bitaansh } from './bitaansh.jpg';
 export { default as netflix } from './netflix.jpeg';
-
+export { default as lk } from './lk.webp';
+export { default as careerin } from './careerIn.jpg';
