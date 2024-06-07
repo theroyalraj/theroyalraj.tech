@@ -55,6 +55,7 @@
   height: 0.125em;
   background-color: var(--primary-600);
   left: 0;
+  top: 1.2em;
   bottom: 0;
   animation: underline var(--ms350) var(--ease-in-out-quad) both;
   animation-delay: calc(var(--s2) + var(--ms600));
@@ -65,6 +66,7 @@
   font-family: var(--ff-sans-title);
   letter-spacing: 0.2px;
   font-weight: 750;
+  top: 1.2em;
   color: var(--neutral-750);
   line-height: 1.1;
 }
