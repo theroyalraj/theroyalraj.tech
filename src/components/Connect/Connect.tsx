@@ -47,6 +47,8 @@ const Connect = () => {
           even if you don't have a job offer for me, I'd <span className="bold">appreciate</span> if you pass by just to{' '}
           <span className="bold">say hi!</span> Also, don't hesitate in letting me know any{' '}
           <span className="bold">feedback</span> or <span className="bold">recommendations</span> you have.
+          I am also a music enthusiast. Checkout my Instagram for violin covers.
+
         </p>
         <Button title="Get In Touch!" link={`mailto:${Mail}`} />
       </animated.div>
