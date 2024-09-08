@@ -28,7 +28,7 @@ export const featured: {
     info: `<React.Fragment>
   <ul type="disc">Lenskart is a leading tech focused eyewear company oﬀering a wide range of glasses with innovative technology like virtual try-on.
 <br><strong><u><center>Achievements/Tasks</center></u></strong>
-<li>•Developed and Integrated <strong>Visual Search (frame suggestions based on face structure)</strong> using Facenet and <strong>Semantic Search </strong>using Algolia.</li>
+<li>•Productionized Visual Search (frame suggestions based on visually similar frames) used yoloV5 for frame detection, MilvusDB for vector search and integrated it with product listing API.</li>
 <li>•Designed, developed and integrated a versatile library compatible with spring projects, facilitating seamless integration for encrypting or decrypting <strong>Personally Identiﬁable Information (PII) </strong>  data stored in Database or Network transit making the system more secure.</li>
 <li>•Integrated Juspay payment gateway, enabling dynamic routing for both PayU and Juspay concurrently. Achieved a <strong>10% increase</strong> in uptime and more payment options, leading to a <strong>5% increase</strong> in revenue worldwide..</li></ul>
 </ul>
