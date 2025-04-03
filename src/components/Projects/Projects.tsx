@@ -32,7 +32,7 @@ const Projects = () => {
         <h3 className="title">WORK EXPERIENCE</h3>
         <h4 className="sub-title">My previous experiences</h4>
         <div className="projects-box">
-          {featured.slice(0, 2).map((project) => (
+          {featured.slice(0, 3).map((project) => (
             <Sample
               key={project.id}
               name={project.name}
@@ -50,7 +50,7 @@ const Projects = () => {
         </h3>
         {/* <h4 className="sub-title">My previous experiences</h4> */}
         <div className="projects-box">
-          {featured.slice(2, 4).map((project) => (
+          {featured.slice(3, 5).map((project) => (
             <Sample
               key={project.id}
               name={project.name}

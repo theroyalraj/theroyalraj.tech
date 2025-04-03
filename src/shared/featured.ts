@@ -1,15 +1,4 @@
-import {
-  Manage,
-  TipCalculator,
-  EvoGym,
-  darFi,
-  salesken,
-  salesken2,
-  bitaansh,
-  netflix,
-  lk,
-  careerin,
-} from '@static/images';
+import { salesken, bitaansh, netflix, lk, careerin, kjbn } from '@static/images';
 
 export const featured: {
   id: string;
@@ -23,8 +12,26 @@ export const featured: {
 }[] = [
   {
     id: 'lk',
-    name: 'SDE@Lenskart ',
-    date: '(03/2023 - Present)',
+    name: 'Lead Fullstack Developer@KJBN Labs',
+    date: '(11/2024 - 03/2025)',
+    info: `<React.Fragment>
+  <ul type="disc">KJBN Labs is very early startup with focus on contract farming.
+<br><strong><u><center>Achievements/Tasks</center></u></strong>
+<li>•Laid the foundation of the "Raithu" the Agritech SaaS platform, leading the initial architecture and development.</li>
+<li>•Innovated the architecture from scratch by utilizing gRPC for communication between micro-services, optimizing performance and reducing latency. Utilizing FastAPI and Python in the process.</li>
+<li>•Led the design and implementation of a scalable User Management service, integrating GraphQL Mesh for optimized data fetching. Architected authentication and authorization frameworks adhering to Clean Architecture and Domain-Driven Design principles to ensure maintainability and security</li></ul>
+</ul>
+<React.Fragment>`,
+
+    stack: ['Java', 'JavaScript', 'NodeJs', 'Spring Boot', 'PostgreSQL', 'ELK Stack', 'Azure', 'AWS', 'Redis', 'Kafka'],
+    code: '',
+    live: 'https://salesken.ai/',
+    image: kjbn,
+  },
+  {
+    id: 'lk',
+    name: 'Tech@Lenskart ',
+    date: '(05/2023 - 10/2024)',
     info: `<React.Fragment>
   <ul type="disc">Lenskart is a leading tech focused eyewear company oﬀering a wide range of glasses with innovative technology like virtual try-on.
 <br><strong><u><center>Achievements/Tasks</center></u></strong>
@@ -36,13 +43,13 @@ export const featured: {
 
     stack: ['Java', 'JavaScript', 'NodeJs', 'Spring Boot', 'PostgreSQL', 'ELK Stack', 'Azure', 'AWS', 'Redis', 'Kafka'],
     code: '',
-    live: 'https://salesken.ai/',
+    live: 'https://lenskart.com/',
     image: lk,
   },
   {
     id: 'sde',
     name: 'SDE@Salesken ',
-    date: '(09/2020 - 03/2023)',
+    date: '(07/2020 - 03/2023)',
     info: `<React.Fragment>
     <ul type="disc">
   My role was to Design, develop, deploy, and maintain core services.
@@ -60,9 +67,19 @@ export const featured: {
 <React.Fragment>`,
 
     stack: ['Java', 'JavaScript', 'NodeJs', 'Spring Boot', 'PostgreSQL', 'ELK Stack', 'Azure', 'AWS', 'Redis', 'Kafka'],
-    code: '',
+    code: 'https://salesken.ai/',
     live: 'https://salesken.ai/',
     image: salesken,
+  },
+  {
+    id: 'eartikl',
+    name: 'Eartikl.com',
+    date: '(02/2025 - 03/2025)',
+    info: 'EarTikl: Revolutionizing Music Creation with AI',
+    stack: ['Generative AI', 'Python', 'Spring Boot', 'PostgreSQL'],
+    code: 'https://github.com/Ear-Tiklr',
+    live: 'https://eartikl.com',
+    image: careerin,
   },
   {
     id: 'careerin',
