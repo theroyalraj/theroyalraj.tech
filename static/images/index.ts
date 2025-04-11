@@ -10,3 +10,4 @@ export { default as netflix } from './netflix.jpeg';
 export { default as lk } from './lk.webp';
 export { default as careerin } from './careerIn.jpg';
 export { default as kjbn } from './kjbn.webp';
+export { default as eartiklr } from './eartiklr.png';

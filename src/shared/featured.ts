@@ -1,4 +1,4 @@
-import { salesken, bitaansh, netflix, lk, careerin, kjbn } from '@static/images';
+import { salesken, bitaansh, netflix, lk, careerin, kjbn, eartiklr } from '@static/images';
 
 export const featured: {
   id: string;
@@ -10,24 +10,24 @@ export const featured: {
   live?: string;
   image?: string;
 }[] = [
-  {
-    id: 'lk',
-    name: 'Lead Fullstack Developer@KJBN Labs',
-    date: '(11/2024 - 03/2025)',
-    info: `<React.Fragment>
-  <ul type="disc">KJBN Labs is very early startup with focus on contract farming.
-<br><strong><u><center>Achievements/Tasks</center></u></strong>
-<li>•Laid the foundation of the "Raithu" the Agritech SaaS platform, leading the initial architecture and development.</li>
-<li>•Innovated the architecture from scratch by utilizing gRPC for communication between micro-services, optimizing performance and reducing latency. Utilizing FastAPI and Python in the process.</li>
-<li>•Led the design and implementation of a scalable User Management service, integrating GraphQL Mesh for optimized data fetching. Architected authentication and authorization frameworks adhering to Clean Architecture and Domain-Driven Design principles to ensure maintainability and security</li></ul>
-</ul>
-<React.Fragment>`,
+  //   {
+  //     id: 'lk',
+  //     name: 'Lead Fullstack Developer@KJBN Labs',
+  //     date: '(11/2024 - 03/2025)',
+  //     info: `<React.Fragment>
+  //   <ul type="disc">KJBN Labs is very early startup with focus on contract farming.
+  // <br><strong><u><center>Achievements/Tasks</center></u></strong>
+  // <li>•Laid the foundation of the "Raithu" the Agritech SaaS platform, leading the initial architecture and development.</li>
+  // <li>•Innovated the architecture from scratch by utilizing gRPC for communication between micro-services, optimizing performance and reducing latency. Utilizing FastAPI and Python in the process.</li>
+  // <li>•Led the design and implementation of a scalable User Management service, integrating GraphQL Mesh for optimized data fetching. Architected authentication and authorization frameworks adhering to Clean Architecture and Domain-Driven Design principles to ensure maintainability and security</li></ul>
+  // </ul>
+  // <React.Fragment>`,
 
-    stack: ['Java', 'JavaScript', 'NodeJs', 'Spring Boot', 'PostgreSQL', 'ELK Stack', 'Azure', 'AWS', 'Redis', 'Kafka'],
-    code: '',
-    live: 'https://salesken.ai/',
-    image: kjbn,
-  },
+  //     stack: ['Java', 'JavaScript', 'NodeJs', 'Spring Boot', 'PostgreSQL', 'ELK Stack', 'Azure', 'AWS', 'Redis', 'Kafka'],
+  //     code: '',
+  //     live: 'https://salesken.ai/',
+  //     image: kjbn,
+  //   },
   {
     id: 'lk',
     name: 'Tech@Lenskart ',
@@ -75,11 +75,11 @@ export const featured: {
     id: 'eartikl',
     name: 'Eartikl.com',
     date: '(02/2025 - 03/2025)',
-    info: 'EarTikl: Revolutionizing Music Creation with AI',
+    info: 'Entrepreneurship (EarTikl)',
     stack: ['Generative AI', 'Python', 'Spring Boot', 'PostgreSQL'],
     code: 'https://github.com/Ear-Tiklr',
     live: 'https://eartikl.com',
-    image: careerin,
+    image: eartiklr,
   },
   {
     id: 'careerin',
